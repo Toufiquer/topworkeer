@@ -2,14 +2,12 @@
 |-----------------------------------------
 | setting up Page for the App
 | @author: Toufiquer Rahman<toufiquer.0@gmail.com>
-| @copyright: Toufiquer, November, 2023
+| @copyright: TopWorkeer, November, 2023
 |-----------------------------------------
 */
+import Container from "@/components/common/container";
+
 const Page = () => {
-  return (
-    <main className="flex w-full h-screen items-center justify-center text-6xl">
-      About Page
-    </main>
-  );
+  return <Container>About</Container>;
 };
 export default Page;

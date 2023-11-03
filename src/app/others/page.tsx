@@ -8,6 +8,6 @@
 import Container from "@/components/common/container";
 
 const Page = () => {
-  return <Container>Blog</Container>;
+  return <Container>Others</Container>;
 };
 export default Page;
