@@ -1,11 +1,4 @@
-/*
-|-----------------------------------------
-| setting up TabletNav for the App
-| @author: Toufiquer Rahman<toufiquer.0@gmail.com>
-| @copyright: TopWorkeer, November, 2023 
-| @copyright: shadcn/ui
-|-----------------------------------------
-*/
+/*|-----------------------------------------| setting up TabletNav for the App| @author: Toufiquer Rahman<toufiquer.0@gmail.com>| @copyright: TopWorkeer, November, 2023 | @copyright: shadcn/ui|----------------------------------------- */
 
 "use client";
 
@@ -33,7 +26,9 @@ export function ShadCNNavTablet() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>{groupTitle}</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="bg-transparent border-0">
+            {groupTitle}
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <li className="row-span-3">
@@ -71,7 +66,9 @@ export function ShadCNNavTablet() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>{services.groupTitle}w</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="bg-transparent border-0">
+            {services.groupTitle}w
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[300px] gap-3 p-4 md:w-[300px] md:grid-cols-2 lg:w-[600px] ">
               {services.data.map((component) => (

@@ -1,6 +1,6 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 import Link from "next/link";
 import Nav from "@/components/common/nav/nav";
 
@@ -19,8 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav />
-        {children}
+        <main
+          style={{ backgroundImage: `url(${"/banner.jpg"})` }}
+          className="h-screen w-full bg-fixed bg-cover bg-center "
+        >
+          <Nav />
+          {children}
+        </main>
       </body>
     </html>
   );

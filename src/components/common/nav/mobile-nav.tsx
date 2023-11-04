@@ -1,6 +1,4 @@
-/*
-|-----------------------------------------
-| setting up MobileNav for the App
+/*|-----------------------------------------| setting up MobileNav for the App
 | @author: Toufiquer Rahman<toufiquer.0@gmail.com>
 | @copyright: TopWorkeer, November, 2023
 |-----------------------------------------
@@ -20,7 +18,7 @@ const MobileNav = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="inline-block md:hidden w-full">
-      <nav className="w-full flex-col flex items-center py-4 sticky bg-white top-0 left-0 z-40 px-4">
+      <nav className="w-full flex-col flex items-center py-4 sticky top-0 left-0 z-40 px-4">
         <div className="w-full flex items-center justify-between">
           <NavLogo />
 
