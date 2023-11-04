@@ -1,5 +1,4 @@
-/*
-|-----------------------------------------
+/*|-----------------------------------------
 | setting up NavLogo for the App
 | @author: Toufiquer Rahman<toufiquer.0@gmail.com>
 | @copyright: TopWorkeer, November, 2023
@@ -13,7 +12,7 @@ const { baseInfo } = navData || {};
 const NavLogo = () => {
   return (
     <Link href="/" className="flex gap-1 items-center justify-start text-2xl">
-      <span className="text-orange-500 font-extrabold">
+      <span className="text-[#ff4904] font-extrabold">
         {baseInfo.firstName}
       </span>{" "}
       {baseInfo.lastName}

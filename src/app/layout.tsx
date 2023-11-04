@@ -1,5 +1,4 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import type { Metadata } from "next";import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Nav from "@/components/common/nav/nav";
@@ -21,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <main
           style={{ backgroundImage: `url(${"/banner.jpg"})` }}
-          className="h-screen w-full bg-fixed bg-cover bg-center "
+          className="min-h-screen w-full bg-fixed bg-cover bg-center"
         >
           <Nav />
           {children}
