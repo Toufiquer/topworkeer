@@ -2,6 +2,7 @@ import Image from 'next/image'
 import HeaderHome from "./header-home";
 import SlackHome from "./slack-home";
 import Experience from "./experience";
+import Service from "./service";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeaderHome />
       <SlackHome />
       <Experience />
+      <Service />
     </main>
   );
 }
