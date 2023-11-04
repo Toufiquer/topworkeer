@@ -7,7 +7,17 @@
 */
 import { ReactNode } from "react";
 
-const Container = ({ children }: { children: ReactNode }) => {
-  return <main className="mx-auto max-w-7xl flex flex-col">{children}</main>;
+const Container = ({
+  children,
+  className = "",
+}: {
+  className?: string;
+  children: ReactNode;
+}) => {
+  return (
+    <main className={`mx-auto max-w-7xl flex flex-col px-4 ${className}`}>
+      {children}
+    </main>
+  );
 };
 export default Container;
