@@ -5,6 +5,7 @@ import Experience from "./experience";
 import Service from "./service";
 import HappyClient from "./happy-client";
 import Testimonials from "./testimonials";
+import VideoSection from "./video-section";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Service />
       <HappyClient />
       <Testimonials />
+      <VideoSection />
     </main>
   );
 }
