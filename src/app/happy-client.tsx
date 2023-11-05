@@ -22,6 +22,11 @@ const HappyClient = () => {
     <main className="py-12 w-full bg-slate-900 bg-opacity-50 text-white">
       <div className="py-12">
         <Container>
+          <div className="text-center">
+            <p className="mb-8 text-[#ff4904] uppercase font-extrabold text-5xl">
+              statistics
+            </p>
+          </div>
           <div className="w-full justify-between grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <Item />
             <Item />

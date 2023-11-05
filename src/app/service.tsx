@@ -32,6 +32,19 @@ const Service = () => {
     <main className="w-full py-12 backdrop-blur">
       <Container>
         <div className="py-12">
+          <div className="w-full text-center relative">
+            <div className=" text-slate-900 max-w-7xl w-full">
+              <p className="text-[#ff4904] text-uppercase font-extrabold text-xl">
+                OUR BEST SERVICE
+              </p>
+              <p className=" text-uppercase text-blue-50 shadow-sm font-extrabold text-6xl my-4">
+                WHAT SERVICES WE&apos;RE
+              </p>
+              <p className="text-[#ff4904] text-uppercase font-extrabold text-5xl">
+                OFFERING.
+              </p>
+            </div>
+          </div>
           <main className="w-full py-12 gap-x-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <Item />
             <Item />
