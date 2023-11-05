@@ -12,27 +12,15 @@ import Image from "next/image";
 import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const imageLoader = ({
-  src,
-  width,
-  quality,
-}: {
-  src: any;
-  width: any;
-  quality: any;
-}) => {
-  return `/design-development.jpg`;
-};
 const Experience = () => {
   return (
     <main className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 gap-12 py-12 bg-green-50 border-t">
       <div className="w-full flex items-center justify-center">
         <Image
-          loader={imageLoader}
-          src="me.png"
-          alt="Picture of the author"
-          width={500}
-          height={500}
+          fill
+          alt="Design and Development Images"
+          src="/design-development.jpg"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <div className="w-full flex items-center justify-center">
