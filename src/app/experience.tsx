@@ -25,7 +25,7 @@ const imageLoader = ({
 };
 const Experience = () => {
   return (
-    <main className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 py-12 bg-green-50 border-t">
+    <main className="w-full min-h-screen grid grid-cols-1 md:grid-cols-2 gap-12 py-12 bg-green-50 border-t">
       <div className="w-full flex items-center justify-center">
         <Image
           loader={imageLoader}

@@ -31,14 +31,16 @@ const Service = () => {
   return (
     <main className="w-full py-12 backdrop-blur">
       <Container>
-        <main className="w-full py-12 gap-x-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-        </main>
+        <div className="py-12">
+          <main className="w-full py-12 gap-x-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+            <Item />
+          </main>
+        </div>
       </Container>
     </main>
   );

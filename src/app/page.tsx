@@ -4,6 +4,7 @@ import SlackHome from "./slack-home";
 import Experience from "./experience";
 import Service from "./service";
 import HappyClient from "./happy-client";
+import Testimonials from "./testimonials";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Experience />
       <Service />
       <HappyClient />
+      <Testimonials />
     </main>
   );
 }
