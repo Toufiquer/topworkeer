@@ -1,6 +1,4 @@
-/*|-----------------------------------------| setting up TabletNav for the App| @author: Toufiquer Rahman<toufiquer.0@gmail.com>| @copyright: TopWorkeer, November, 2023 | @copyright: shadcn/ui|----------------------------------------- */
-
-"use client";
+/*|-----------------------------------------| setting up TabletNav for the App| @author: Toufiquer Rahman<toufiquer.0@gmail.com>| @copyright: TopWorkeer, November, 2023 | @copyright: shadcn/ui|----------------------------------------- */"use client";
 
 import * as React from "react";
 import Link from "next/link";
@@ -39,7 +37,7 @@ export function ShadCNNavTablet() {
                   >
                     <div className="w-full h-full flex items-center justify-center">
                       <Image
-                        src="/next.svg"
+                        src="/top-workeer-without-background.svg"
                         alt="Logo for the website"
                         width={100}
                         height={100}

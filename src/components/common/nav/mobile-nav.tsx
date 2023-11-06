@@ -1,5 +1,4 @@
-/*|-----------------------------------------| setting up MobileNav for the App
-| @author: Toufiquer Rahman<toufiquer.0@gmail.com>
+/*|-----------------------------------------| setting up MobileNav for the App| @author: Toufiquer Rahman<toufiquer.0@gmail.com>
 | @copyright: TopWorkeer, November, 2023
 |-----------------------------------------
 */
@@ -21,7 +20,6 @@ const MobileNav = () => {
       <nav className="w-full flex-col flex items-center py-4 sticky top-0 left-0 z-40 px-4">
         <div className="w-full flex items-center justify-between">
           <NavLogo />
-
           {toggle ? (
             <span
               onClick={() => setToggle(false)}
